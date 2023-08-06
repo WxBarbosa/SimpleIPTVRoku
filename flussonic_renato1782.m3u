@@ -1,7 +1,21 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="flussonicmediaserver_v22.04"
-#EXTINF:-1,SINTONIA TEMPORADA 4 EP 1
-http://conexaoonline.top:80/admin/5kuy7nh/328798
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E01
+http://conexaoonline.top:80/series/admin/5kuy7nh/328795.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E02
+http://conexaoonline.top:80/series/admin/5kuy7nh/328796.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E03
+http://conexaoonline.top:80/series/admin/5kuy7nh/328797.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E04
+http://conexaoonline.top:80/series/admin/5kuy7nh/328798.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E05
+http://conexaoonline.top:80/series/admin/5kuy7nh/328799.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E06
+http://conexaoonline.top:80/series/admin/5kuy7nh/328800.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E07
+http://conexaoonline.top:80/series/admin/5kuy7nh/328801.mp4
+#EXTINF:-1,Sintonia S04 Sintonia -  S04E08
+http://conexaoonline.top:80/series/admin/5kuy7nh/328802.mp4
 #EXTINF:-1,GLOBO REDE AMAZONICA MANAUS SD
 http://conexaoonline.top:80/admin/5kuy7nh/164
 #EXTINF:-1,GLOBO TV MANAUS FHD
