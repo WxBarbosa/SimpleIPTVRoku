@@ -1,5 +1,9 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="flussonicmediaserver_v22.04"
+#EXTINF:-1,Megatubarão 2
+http://conexaoonline.top:80/movie/mUUrHpuc3F/6X8h1vQ73v/204112.mp4
+#EXTINF:-1,O Tubarão: À Deriva
+http://conexaoonline.top:80/movie/mUUrHpuc3F/6X8h1vQ73v/329437.mp4
 #EXTINF:-1, Sede Assassina - Dublado
 http://conexaoonline.top:80/movie/mUUrHpuc3F/6X8h1vQ73v/328565.mp4
 #EXTINF:-1,GLOBO REDE AMAZONICA MANAUS SD
