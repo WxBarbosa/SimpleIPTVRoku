@@ -1,21 +1,5 @@
 #EXTM3U
 #EXT-X-SESSION-DATA:DATA-ID="flussonicmediaserver_v22.04"
-#EXTINF:-1 tvg-name="Tieta S01E30" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E30
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344438.mp4
-#EXTINF:-1 tvg-name="Tieta S01E31" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E31
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344439.mp4
-#EXTINF:-1 tvg-name="Tieta S01E32" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E32
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344440.mp4
-#EXTINF:-1 tvg-name="Tieta S01E33" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E33
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344441.mp4
-#EXTINF:-1 tvg-name="Tieta S01E34" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E34
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344442.mp4
-#EXTINF:-1 tvg-name="Tieta S01E35" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E35
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344443.mp4
-#EXTINF:-1 tvg-name="Tieta S01E36" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E36
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344444.mp4
-#EXTINF:-1 tvg-name="Tieta S01E37" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E37
-http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344445.mp4
 #EXTINF:-1 tvg-name="Tieta S01E38" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E38
 http://conexaoonline.top:80/series/RomarioBorges/wbxAtnnsgL/344446.mp4
 #EXTINF:-1 tvg-name="Tieta S01E39" tvg-logo="http://www.rochagalaxia.live/logos/VIVA.jpg" group-title="SÉRIES | NOVELAS",Tieta S01E39
@@ -1224,3 +1208,5 @@ http://conexaoonline.top:80/movie/RomarioBorges/wbxAtnnsgL/364705.mp4
 http://conexaoonline.top:80/movie/RomarioBorges/wbxAtnnsgL/364703.mp4
 #EXTINF:-1, Ricky Stanicky (2024)
 http://conexaoonline.top:80/movie/RomarioBorges/wbxAtnnsgL/364700.mp4
+#EXTINF:-1, Mergulho Noturno (2024)
+http://conexaoonline.top:80/movie/RomarioBorges/wbxAtnnsgL/364695.mp4
