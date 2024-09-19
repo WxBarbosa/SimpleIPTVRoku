@@ -3,7 +3,7 @@ sub Main()
     if reg.Exists("apiurl") then
         url = reg.Read("apiurl")
     else
-        url = "http://192.168.1.218:5000/media?page=1&per_page=12&playlist_id=1" ' Alterar para o URL da sua API
+        url = "http://154.38.187.229:5000/media?playlist_id=1" ' Alterar para o URL da sua API
     end if
 
     screen = CreateObject("roSGScreen")
