@@ -1,19 +1,26 @@
 sub init()
     m.top.backgroundURI = "pkg:/images/background-controls.jpg"
 
-    m.save_feed_url = m.top.FindNode("save_feed_url")  'Save url to registry
-
-    m.get_channel_list = m.top.FindNode("get_channel_list") 'get url from registry and parse the feed
-    m.get_channel_list.ObserveField("content", "SetContent") 'Is thre content parsed? If so, goto SetContent sub and dsipay list
+    m.save_feed_url = m.top.FindNode("save_feed_url")  ' Save URL to registry
+    m.get_channel_list = m.top.FindNode("get_channel_list") ' Get URL from registry and parse the feed
+    m.get_channel_list.ObserveField("content", "SetContent") ' Is the content parsed? If so, go to SetContent sub and display list
 
     m.list = m.top.FindNode("list")
     m.list.ObserveField("itemSelected", "setChannel") 
+    m.list.ObserveField("scrollPosition", "loadMoreData")
 
     m.video = m.top.FindNode("Video")
     m.video.ObserveField("state", "checkState")
 
-    showdialog()  'Force a keyboard dialog.  
-End sub
+    showdialog()  ' Force a keyboard dialog.  
+end sub
+
+sub loadMoreData()
+    if m.list.scrollPosition >= m.list.getMaxScroll()
+        ' Carregar mais dados da API
+        m.get_channel_list.control = "RUN"
+    end if
+end sub
 
 ' **************************************************************
 

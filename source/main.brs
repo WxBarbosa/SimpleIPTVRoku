@@ -1,12 +1,9 @@
-' ********** Copyright 2016 Roku Corp.  All Rights Reserved. ********** 
-
 sub Main()
-
     reg = CreateObject("roRegistrySection", "profile")
-    if reg.Exists("primaryfeed") then
-        url = reg.Read("primaryfeed")
+    if reg.Exists("apiurl") then
+        url = reg.Read("apiurl")
     else
-        url = "https://tinyurl.com/yaoc6zpo"
+        url = "http://192.168.1.218:5000/media?page=1&per_page=12&playlist_id=1" ' Alterar para o URL da sua API
     end if
 
     screen = CreateObject("roSGScreen")
@@ -25,5 +22,4 @@ sub Main()
             if msg.isScreenClosed() then return
         end if
     end while
-    
 end sub

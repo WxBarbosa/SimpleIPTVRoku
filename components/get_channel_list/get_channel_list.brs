@@ -1,80 +1,54 @@
 sub init()
-	m.top.functionName = "getContent"
+    m.top.functionName = "getContent"
 end sub
 
-' **********************************************
-
 sub getContent()
-	feedurl = m.global.feedurl
+    feedurl = m.global.feedurl
 
-	m.port = CreateObject ("roMessagePort")
-	searchRequest = CreateObject("roUrlTransfer")
-	searchRequest.setURL(feedurl)
-	searchRequest.EnableEncodings(true)
-	httpsReg = CreateObject("roRegex", "^https:", "")
-	if httpsReg.isMatch(feedurl)
-		searchRequest.SetCertificatesFile ("common:/certs/ca-bundle.crt")
-		searchRequest.AddHeader ("X-Roku-Reserved-Dev-Id", "")
-		searchRequest.InitClientCertificates ()
-	end if
+    ' Configura o MessagePort e o UrlTransfer
+    m.port = CreateObject("roMessagePort")
+    searchRequest = CreateObject("roUrlTransfer")
+    searchRequest.setURL(feedurl)
+    searchRequest.EnableEncodings(true)
 
+    ' Configura o certificado se a URL for HTTPS
+    httpsReg = CreateObject("roRegex", "^https:", "")
+    if httpsReg.isMatch(feedurl)
+        searchRequest.SetCertificatesFile("common:/certs/ca-bundle.crt")
+        searchRequest.AddHeader("X-Roku-Reserved-Dev-Id", "")
+        searchRequest.InitClientCertificates()
+    end if
 
-	text = searchRequest.getToString()
+    ' Faz a requisição e obtém a resposta
+    response = searchRequest.getToString()
+    if response = invalid
+        print "Failed to get response from URL"
+        return
+    end if
 
-	reHasGroups = CreateObject("roRegex", "group-title\=" + chr(34) + "?([^" + chr(34) + "]*)"+chr(34)+"?,","")
-	hasGroups = reHasGroups.isMatch(text)
-	print hasGroups
+    ' Analisa a resposta JSON
+    jsonParser = ParseJson(response)
+    if jsonParser = invalid
+        print "Failed to parse JSON response"
+        return
+    end if
 
-	reLineSplit = CreateObject ("roRegex", "(?>\r\n|[\r\n])", "")
-	reExtinf = CreateObject ("roRegex", "(?i)^#EXTINF:\s*(\d+|-1|-0).*,\s*(.*)$", "")
+    ' Cria um ContentNode para a estrutura
+    con = CreateObject("roSGNode", "ContentNode")
 
-	rePath = CreateObject ("roRegex", "^([^#].*)$", "")
-	inExtinf = false
-	con = CreateObject("roSGNode", "ContentNode")
-	if not hasGroups
-		group = con
-	else
-		groups = []
-	end if
+    ' Popula o ContentNode com os dados do JSON
+    for each item in jsonParser
+        node = CreateObject("roSGNode", "ContentNode")
+        
+        ' Ajuste os campos conforme necessário
+        node.title = item.title
+        node.poster = item.image_url
+        node.url = item.url
+        
+        ' Adiciona o node ao ContentNode principal
+        con.appendChild(node)
+    end for
 
-	REM #EXTINF:-1 tvg-logo="" group-title="uk",BBC ONE HD
-	for each line in reLineSplit.Split (text)
-		if inExtinf
-			maPath = rePath.Match (line)
-			if maPath.Count () = 2
-				item = group.CreateChild("ContentNode")
-				item.url = maPath [1]
-				item.title = title
-
-				inExtinf = False
-			end if
-		end if
-		maExtinf = reExtinf.Match (line)
-		if maExtinf.Count () = 3
-			if hasGroups
-				groupName = reHasGroups.Match(line)[1]
-				group = invalid
-				REM Don't know why, but FindNode refused to work here
-				for x = 0 to con.getChildCount()-1
-					node = con.getChild(x)
-					if node.id = groupName
-						group = node
-						exit for
-					end if
-				end for
-				if group = invalid
-					group = con.CreateChild("ContentNode")
-					group.contenttype = "SECTION"
-					group.title = groupName
-					group.id = groupName
-				end if
-			end if
-			length = maExtinf[1].ToInt ()
-			if length < 0 then length = 0
-			title = maExtinf[2]
-			inExtinf = True
-		end if
-	end for
-
-	m.top.content = con
+    ' Define o conteúdo do top node
+    m.top.content = con
 end sub
