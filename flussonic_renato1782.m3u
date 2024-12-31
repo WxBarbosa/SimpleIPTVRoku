@@ -1,6 +1,8 @@
 #EXTM3U
-#EXTINF:2948,S01E05 - BLUDV.TO
+#EXTINF:Squid Game,S01E01 - BLUDV.TO
 http://192.168.1.218:11470/f65075b69b07c2a7e846cc270025cd38e1de3460/3
+#EXTINF:Squid Game,S01E02 - BLUDV.TO
+http://192.168.1.218:11470/f65075b69b07c2a7e846cc270025cd38e1de3460/4
 #EXTINF:-1 tvg-id="" tvg-name="BR | Premiere Clubes HD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pfc-br.png" group-title="⚽DEPORTES BRASIL",BR | Premiere Clubes HD
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/382279
 #EXTINF:-1 tvg-id="" tvg-name="BR | Premiere 2 HD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pfc-br.png" group-title="⚽DEPORTES BRASIL",BR | Premiere 2 HD
