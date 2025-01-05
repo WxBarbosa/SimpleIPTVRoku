@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:Carry ON - Filme
+#EXTINF:-1, Carry On
 http://192.168.1.218:11470/ba1dd6b7a1bab9b170fb251ff5182e1aa2d43520/0
-#EXTINF:Gladiador II
+#EXTINF:-1,Gladiador II
 http://192.168.1.218:11470/540abf47a7996d6d97fb8ad448d38d58af475ddd/0
-#EXTINF:28 semanas depois
+#EXTINF:-1,28 semanas depois
 http://192.168.1.218:11470/0762d98adfaf6c87085debf84fa82e85c6bbf3c3/0
 #EXTINF:-1 tvg-id="" tvg-name="BR | Premiere Clubes HD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pfc-br.png" group-title="⚽DEPORTES BRASIL",BR | Premiere Clubes HD
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/382279
