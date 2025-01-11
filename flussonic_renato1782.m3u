@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1, A ordem
-http://192.168.1.218:11470/370e39aded707c47c3a77cd46fd3aadede470ba0/0
-#EXTINF:-1,Heredict
 http://192.168.1.218:11470/465919075d4d32b3fda6ad60acc91c413317d0e9/0
 #EXTINF:-1, Speak no evil
 http://192.168.1.218:11470/643e84ff6c5e9d79fb39c48f353f0ee19629c31f/0
