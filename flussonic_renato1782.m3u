@@ -1,36 +1,36 @@
 #EXTM3U
 #EXTINF:-1, Caddo Lake
-http://192.168.1.219:11470/0ce78030a0dd62b1bfc47d5d9a9adcd2cf1ce969/0
+http://192.168.1.218:11470/0ce78030a0dd62b1bfc47d5d9a9adcd2cf1ce969/0
 #EXTINF:-1, O Chacal - T1E3
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/6
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/6
 #EXTINF:-1, O Chacal - T1E4
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/7
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/7
 #EXTINF:-1, O Chacal - T1E5
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/8
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/8
 #EXTINF:-1, O Chacal - T1E6
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/9
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/9
 #EXTINF:-1, O Chacal - T1E7
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/10
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/10
 #EXTINF:-1, O Chacal - T1E8
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/11
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/11
 #EXTINF:-1, O Chacal - T1E9
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/12
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/12
 #EXTINF:-1, O Chacal - T1E10
-http://192.168.1.219:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/0
+http://192.168.1.218:11470/8f6dd4a3f2a5abc3d0d53ff507e463661837fd8d/0
 #EXTINF:-1, Arcanjo renegado - T3E1
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/0
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/0
 #EXTINF:-1, Arcanjo renegado - T3E2
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/1
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/1
 #EXTINF:-1, Arcanjo renegado - T3E3
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/2
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/2
 #EXTINF:-1, Arcanjo renegado - T3E4
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/3
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/3
 #EXTINF:-1, Arcanjo renegado - T3E5
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/4
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/4
 #EXTINF:-1, Arcanjo renegado - T3E6
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/5
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/5
 #EXTINF:-1, Arcanjo renegado - T3E7
-http://192.168.1.219:11470/035d212015caa840b152cf6d19dd7b896b44f53e/6
+http://192.168.1.218:11470/035d212015caa840b152cf6d19dd7b896b44f53e/6
 #EXTINF:-1 tvg-id="" tvg-name="BR | Premiere Clubes HD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pfc-br.png" group-title="⚽DEPORTES BRASIL",BR | Premiere Clubes HD
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/382279
 #EXTINF:-1 tvg-id="" tvg-name="BR | Premiere 2 HD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pfc-br.png" group-title="⚽DEPORTES BRASIL",BR | Premiere 2 HD
